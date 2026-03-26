@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Latte Vainilla",
+    "precio": "$8.500",
+    "descripcion": "Espresso suave con leche vaporizada y toque de vainilla natural.",
+    "img": "https://png.pngtree.com/png-clipart/20250417/original/pngtree-velvety-iced-latte-with-a-layer-of-fluffy-cream-png-image_20715353.png"
+  },
+  {
+    "nombre": "Cappuccino Clásico",
+    "precio": "$7.000",
+    "descripcion": "Espresso, leche espumada y una pizca de canela. Un clásico irresistible.",
+    "img": "https://png.pngtree.com/png-clipart/20250519/original/pngtree-coffee-cup-with-heart-latte-art-beverage-hot-drink-cafe-png-image_21028442.png"
+  },
+  {
+    "nombre": "Croissant de Mantequilla",
+    "precio": "$5.500",
+    "descripcion": "Hojaldre artesanal recién horneado, crujiente por fuera y suave por dentro.",
+    "img": "https://png.pngtree.com/png-vector/20250102/ourmid/pngtree-flaky-butter-croissant-golden-and-crispy-a-freshly-baked-treat-png-image_15004441.png"
+  },
+  {
+    "nombre": "Tarta de Frutos Rojos",
+    "precio": "$9.000",
+    "descripcion": "Base de masa quebrada con crema pastelera y frutos del bosque frescos.",
+    "img": "https://png.pngtree.com/png-clipart/20241117/original/pngtree-a-slice-of-cheesecake-with-berries-on-top-png-image_17165591.png"
+  },
+  {
+    "nombre": "Americano Doble",
+    "precio": "$6.000",
+    "descripcion": "Doble shot de espresso con agua caliente. Intenso y reconfortante.",
+    "img": "https://png.pngtree.com/png-vector/20241002/ourmid/pngtree-a-cup-of-black-americano-coffee-png-image_14002303.png"
+  },
+  {
+    "nombre": "Brownie de Chocolate",
+    "precio": "$7.500",
+    "descripcion": "Brownie húmedo y denso con chips de chocolate 70% cacao.",
+    "img": "https://static.vecteezy.com/system/resources/thumbnails/068/779/734/small/stack-of-delicious-chocolate-brownies-with-chocolate-chips-isolated-on-transparent-background-png.png"
+  }
+]
