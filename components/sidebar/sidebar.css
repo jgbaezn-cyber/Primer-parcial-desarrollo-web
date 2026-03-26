@@ -1,0 +1,75 @@
+.site-sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  padding: 2rem 1.2rem;
+  position: sticky;
+  top: 70px;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-nav li {
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: background var(--transition), color var(--transition);
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+  background: rgba(212, 169, 106, 0.15);
+  color: var(--color-primary);
+}
+
+.sidebar-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 1rem 0 0.5rem 0.75rem;
+}
+
+.sidebar-hours {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  color: var(--color-text-soft);
+}
+
+.sidebar-hours strong {
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .site-sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+}
