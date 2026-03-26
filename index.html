@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Café Aroma — Menú</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="main-page">
+
+  <div id="header-container"></div>
+
+  <div class="page-layout">
+
+    <div id="sidebar-container"></div>
+
+    <main class="main-content">
+
+      <section class="hero-section">
+        <h2>Nuestro Menú</h2>
+        <p>Descubre el sabor auténtico en cada taza y bocado</p>
+      </section>
+
+      <section class="products-section" id="template-products">
+        <h3 class="section-title">Destacados del día</h3>
+        <div class="products-grid" id="template-grid"></div>
+      </section>
+
+      <template id="product-template">
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="" alt="" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name"></h4>
+            <p class="product-desc"></p>
+            <span class="product-price"></span>
+          </div>
+        </div>
+      </template>
+
+      <section class="products-section" id="fetch-products">
+        <h3 class="section-title">Carta completa</h3>
+        <div class="products-grid" id="fetch-grid"></div>
+      </section>
+
+      <section class="products-section" id="webcomp-products">
+        <h3 class="section-title">Especialidades</h3>
+        <div class="products-grid" id="webcomp-grid"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <div id="footer-container"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
