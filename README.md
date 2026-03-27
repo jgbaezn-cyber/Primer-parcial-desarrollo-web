@@ -14,17 +14,7 @@ Proyecto de desarrollo web creado para la asignatura de [Nombre de la materia].
 
 El proyecto sigue una arquitectura basada en componentes modulares para facilitar el mantenimiento y la escalabilidad:
 
-/
-├── components/          # Fragmentos reutilizables de la interfaz
-│   ├── footer/          # Estilos, estructura y lógica del pie de página
-│   ├── header/          # Barra de navegación y logo
-│   └── sidebar/         # Menú lateral interactivo
-├── css/                 # Estilos globales (variables, reset, layout)
-├── data/                # Archivos JSON con la información de los productos
-├── js/                  # Lógica principal y manejo de autenticación (Login)
-├── index.html           # Página principal de la cafetería
-└── login.html           # Interfaz de acceso para usuarios
-
+![Estructura de archivos](https://i.imgur.com/AmQZh2y.png)
 ## 🛠️ Tecnologías utilizadas
 - HTML5
 - CSS3 (Flexbox/Grid)
